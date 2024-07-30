@@ -1,0 +1,132 @@
+.collapse{
+    margin-left: 50%;
+}
+.navbar-brand{
+    font-size: 30px;
+    color: yellow;
+    font-weight: bold;
+    margin-left: 80px;
+}
+.nav-item{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.home{
+    width: 100%;
+}
+.home-cntent{
+    text-align: justify;
+    margin-top: 50px;
+    font-size: 50px;
+    font-weight: bold;
+
+}
+.home p{
+    font-family: "Merriweather", serif;
+}
+.home span{
+    font-family: "Playwrite BE WAL", cursive;
+}
+/* .enquiry{
+    background-color:lightblue;
+    width: 10%; 
+    height: 30px;
+    text-align: center; 
+    padding: 10; 
+    margin-left: 600px;
+}
+.enquiry a{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: azure;
+    margin-top: -20px;
+} */
+.section-1{
+    background-image: url(https://bottindia.com/wp-content/uploads/2023/06/philipp-kammerer-6Mxb_mZ_Q8E-unsplash.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    
+}
+/* .packages{
+    margin-top: 10%;
+} */
+.sec-head{
+    /* text-align: center; */
+    font-weight: bold;
+
+}
+/* .h-contents{
+    margin-top: 10%;
+} */
+
+.parentf{
+    width: 100%;
+    height: 350px;
+    /* display: flex;
+    flex-direction: row; */
+     justify-content: space-evenly; 
+    color: rgb(255, 255, 255);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(10, 60, 83);
+    
+}
+
+.linkf{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.linkf a{
+    text-decoration: none;
+
+}
+.linkf a{
+   
+    color: rgb(255, 255, 255);
+}
+.img{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.img-grid {
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 15px;
+}
+.img-grid img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease;
+}
+.img-grid:hover img {
+    transform: scale(1.1);
+}
+.img-large {
+    height: 300px;
+    object-fit: cover;
+}
+.img-medium {
+    height: 200px;
+    object-fit: cover;
+}
+.img-small {
+    height: 150px;
+    object-fit: cover;
+}
+north img{
+    transition: transform 0.3s ease;
+
+}
+
+.north:hover img {
+    transform: scale(1.1);
+}
+
+
+
